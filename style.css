@@ -7,3 +7,6 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+.max-h-600{
+    height: 340px;
+}

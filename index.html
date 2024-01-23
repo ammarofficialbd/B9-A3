@@ -55,6 +55,11 @@
         .z-99 {
             z-index: 9999999999;
         }
+
+        html {
+            background: white;
+            overflow-x: hidden;
+        }
     </style>
 
 </head>
@@ -174,7 +179,8 @@
             <div class="flex flex-col justify-center">
                 <div class="flex flex-col justify-center items-center  mx-auto">
                     <h2 class="lg:text-2xl text-xl text-black p-4"> Professional Hockeys Club </h2>
-                    <p class="text-center text-gray-600 w-96 lg:w-[550px]"> Dit amet consectetur. Condimentum dignissim
+                    <p class="text-center text-gray-600 w-96 lg:w-[550px] p-4"> Dit amet consectetur. Condimentum
+                        dignissim
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
                 <div class="mx-auto flex lg:flex-row flex-col lg:gap-8 gap-4">
@@ -228,286 +234,416 @@
         </section>
         <!--================ Progress Section End ============== -->
         <!--================ Program Section Start ============== -->
+        <section class="section mt-10 p-4">
+            <div class="flex flex-col justify-center items-center  mx-auto">
+                <h2 class="lg:text-2xl text-xl text-black p-4"> Program Sections </h2>
+                <p class="text-center text-gray-600 w-96 lg:w-[550px] p-4"> Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="mt-10 grid lg:grid-cols-2 grid-cols-1 gap-10 p-4">
+                <!-- Program 1 -->
+                <div class="relative rounded-lg max-h-600 bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700 bg-[url('./Images/2.png')]"
+                    style="background-image: url('./Images/2.png');">
+                    <div class="absolute bottom-12 left-12">
+                        <h5 class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50">
+                            Junior Program
+                        </h5>
+                        <p class="mb-4 text-base text-white  dark:text-neutral-200">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </p>
+                        <button type="button"
+                            class="relative bg-primary-color p-1 text-gray-100 hover:text-white focus:outline-none rounded-md py-2 px-2">
+                            Register Now!
+                        </button>
+                    </div>
 
+                </div>
+                <!-- Program 2 -->
+                <div class="relative rounded-lg max-h-600 bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700 bg-[url('./Images/2.png')]"
+                    style="background-image: url('./Images/3.png');">
+                    <div class="absolute bottom-12 left-12">
+                        <h5 class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50">
+                            Teenager Program
+                        </h5>
+                        <p class="mb-4 text-base text-white  dark:text-neutral-200">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </p>
+                        <button type="button"
+                            class="relative bg-primary-color p-1 text-gray-100 hover:text-white focus:outline-none rounded-md py-2 px-2">
+                            Register Now!
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Program 3 -->
+            <div class="mt-4 grid grid-cols-1 gap-10 p-4">
+                <div class="relative rounded-lg max-h-600 bg-white bg-cover p-6 shadow-lg dark:bg-neutral-700 bg-[url('./Images/2.png')]"
+                    style="background-image: url('./Images/4.png');">
+                    <div class="absolute bottom-12 left-12">
+                        <h5 class="mb-2 text-xl font-medium leading-tight text-white dark:text-neutral-50">
+                            Teenager Program
+                        </h5>
+                        <p class="mb-4 text-base text-white  dark:text-neutral-200">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </p>
+                        <button type="button"
+                            class="relative bg-primary-color p-1 text-gray-100 hover:text-white focus:outline-none rounded-md py-2 px-2">
+                            Register Now!
+                        </button>
+                    </div>
+                </div>
+
+        </section>
         <!--================ Program Section End ============== -->
         <!--================ Products Section Start ============== -->
         <section class="section mt-10">
             <div class="flex flex-col justify-center items-center  mx-auto">
                 <h2 class="lg:text-2xl text-xl text-black p-4"> Our New Products </h2>
-                <p class="text-center text-gray-600 w-96 lg:w-[550px]"> Dit amet consectetur. Condimentum dignissim
+                <p class="text-center text-gray-600 w-96 lg:w-[550px] p-4"> Dit amet consectetur. Condimentum dignissim
                     adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="mt-10 p-4">
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
                     <!-- Item 1 -->
-                    <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/5.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56 ">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/5.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56 ">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
                     <!-- Item 2 -->
-                    <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/6.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/6.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
                     <!-- Item 3 -->
-                    <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/7.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/7.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
                     <!-- Item 4 -->
-                    <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/8.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/8.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
-                     <!-- Item 5 -->
-                     <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/9.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <!-- Item 5 -->
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/9.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
                     <!-- Item 6 -->
-                    <div class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
-                        <img src="./Images/10.png" alt="Product Image"
-                            class="rounded-md object-cover lg:h-60 h-56">
-                         <div class="flex flex-col p-2">  
-                            <div class="flex gap-4"> 
+                    <div
+                        class="bg-gray-50 border-solid border-2 border-gray-300 flex justify-between lg:flex-row flex-col rounded-lg shadow-sm transition-transform transform hover:scale-105 p-4 gap-4">
+                        <img src="./Images/10.png" alt="Product Image" class="rounded-md object-cover lg:h-60 h-56">
+                        <div class="flex flex-col p-2">
+                            <div class="flex gap-4">
                                 <!-- rating -->
-                              <div class=""> 
-                                <i class="fa-solid fa-star text-yellow-500"></i>
-                                <span> 5.0 </span>
-                              </div> 
-                              <!-- Views -->
-                              <div class="">
-                                <i class="fa-solid fa-eye"></i>
-                                <span> 20 </span>
-                             </div> 
-                               <!-- React -->
-                               <div class=""> 
-                                <i class="fa-regular fa-heart"> 200 </i>
-                               </div> 
+                                <div class="">
+                                    <i class="fa-solid fa-star text-yellow-500"></i>
+                                    <span> 5.0 </span>
+                                </div>
+                                <!-- Views -->
+                                <div class="">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span> 20 </span>
+                                </div>
+                                <!-- React -->
+                                <div class="">
+                                    <i class="fa-regular fa-heart"> 200 </i>
+                                </div>
                             </div>
                             <h2 class="text-xl font-bold mb-2 text-black">Stylish Jacket</h2>
                             <p class="text-gray-500">Elegant design with a leather strap. Perfect for any occasion.</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-primary-color font-bold">$149.99</span>
-                                <div class=" flex gap-4 px-4 py-2 rounded-md"> 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <div class=" flex gap-4 px-4 py-2 rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
                                         <g clip-path="url(#clip0_7_227)">
-                                          <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                          <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z"
+                                                stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                          <clipPath id="clip0_7_227">
-                                            <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
-                                          </clipPath>
+                                            <clipPath id="clip0_7_227">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0 -0.000244141)" />
+                                            </clipPath>
                                         </defs>
-                                      </svg>  <span> Delivery Fee </span> : <span> Free</span>
+                                    </svg> <span> Delivery Fee </span> : <span> Free</span>
                                 </div>
                             </div>
-                        </div>   
-                       
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -518,7 +654,8 @@
             <div class="p-2 lg:p-10">
                 <div class="flex flex-col justify-center items-center  mx-auto">
                     <h2 class="lg:text-2xl text-xl text-black p-4"> Get In Touch</h2>
-                    <p class="text-center text-gray-600 w-96 lg:w-[550px]"> Dit amet consectetur. Condimentum dignissim
+                    <p class="text-center text-gray-600 w-96 lg:w-[550px] p-4"> Dit amet consectetur. Condimentum
+                        dignissim
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
                 <div class="flex flex-col lg:flex-row gap-10">
