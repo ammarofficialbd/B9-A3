@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PolarHockey's Thunder</title>
     <!-- main css -->
     <link rel="stylesheet" href="./style.css">
-     <!--======= tailwind and daisy ui cdn ===========-->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- Google font Poppins -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-         rel="stylesheet">
-     <!--=========== Font awesome CDN ===========-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <!-- tailwind custom classes -->
+    <!--======= tailwind and daisy ui cdn ===========-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--=========== Font awesome CDN ===========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind custom classes -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         'primary-color': '#FF4240;',
-                        'secondary-color':'rgba(181, 0, 106, 0.8)',
+                        'secondary-color': 'rgba(181, 0, 106, 0.8)',
                     }
 
                 }
@@ -36,170 +39,268 @@
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
-        .h-550{
+
+        .h-550 {
             height: 35rem;
         }
-        .h-45{
+
+        .h-45 {
             height: 45rem;
         }
-        .w-550{
+
+        .w-550 {
             width: 35rem;
         }
-        .z-99{
+
+        .z-99 {
             z-index: 9999999999;
         }
-        
     </style>
 
 </head>
+
 <body class="bg-white">
     <header class="header">
         <nav>
             <div class="px-2 sm:px-6 lg:px-8">
-              <div class="relative flex h-16 items-center justify-center">
-                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                </div>
-                <div class="flex flex-1 items-center sm:items-stretch sm:justify-start">
-                  <div class="flex lg:pl-0  justify-start md:pl-0 pl-8 flex-shrink-0 items-center">
-                    <img class="h-8 w-auto" src="./Images/logo.png" alt="PolarHockey's">
-                  </div>
-                  <div class="hidden lg:flex lg:justify-center sm:ml-6 sm:block w-full">
-                    <div class="flex space-x-4">
-                      <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                      <a href="#" class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
-                      <a href="#" class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                      <a href="#" class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+                <div class="relative flex h-16 items-center justify-center">
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
-                  </div>
+                    <div class="flex flex-1 items-center sm:items-stretch sm:justify-start">
+                        <div class="flex lg:pl-0  justify-start md:pl-0 pl-8 flex-shrink-0 items-center">
+                            <img class="h-8 w-auto" src="./Images/logo.png" alt="PolarHockey's">
+                        </div>
+                        <div class="hidden lg:flex lg:justify-center sm:ml-6 sm:block w-full">
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                                    aria-current="page">Home</a>
+                                <a href="#"
+                                    class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+                                <a href="#"
+                                    class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+                                <a href="#"
+                                    class="text-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inset-y-0 right-0 flex items-center px-4 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        <i class="fa-solid fa-magnifying-glass pr-4 hidden lg:inline-block md:inline-block"></i>
+                        <button type="button"
+                            class="relative bg-primary-color p-1 text-gray-100 hover:text-white focus:outline-none rounded-md py-2 px-2">
+                            Get Tickets
+                        </button>
+                    </div>
                 </div>
-                <div class="inset-y-0 right-0 flex items-center px-4 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <i class="fa-solid fa-magnifying-glass pr-4 hidden lg:inline-block md:inline-block"></i>
-                  <button type="button" class="relative bg-primary-color p-1 text-gray-100 hover:text-white focus:outline-none rounded-md py-2 px-2">
-                 Get Tickets
-                </button>
-                </div>
-              </div>
             </div>
-          </nav>
-          
+        </nav>
+
     </header>
     <!--================ main Section Start ============== -->
     <main>
         <!--================ Home Section Start ============== -->
-        <section class="section"> 
+        <section class="section">
             <div id="controls-carousel" class="relative w-full h-" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="relative overflow-hidden rounded-lg h-550">
-                     <!-- Item 1 -->
+                    <!-- Item 1 -->
                     <div class="ease-in-out h-550" data-carousel-item>
                         <img src="./Images/1.png" class="absolute block w-full  h-550 object-cover" alt="...">
-                        <div class="lg:absolute md:absolute  relative z-30 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg"> 
+                        <div
+                            class="lg:absolute md:absolute  relative z-30 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg">
                             <h2 class="text-white text-2xl"> Meet all the heroes from the field </h2>
-                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                       </div>
+                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing
+                                aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
                     </div>
                     <!-- Item 2 -->
-                    
+
                     <div class="ease-in-out h-45" data-carousel-item="active">
                         <img src="./Images/1.png" class="absolute block w-full h-550 object-cover" alt="...">
-                        <div class="lg:absolute md:absolute relative z-99 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg block"> 
+                        <div
+                            class="lg:absolute md:absolute relative z-99 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg block">
                             <h2 class="text-white text-2xl"> Meet all the heroes from the field </h2>
-                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                       </div>
+                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing
+                                aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
                     </div>
                     <!-- Item 3 -->
                     <div class="ease-in-out h-550" data-carousel-item>
                         <img src="./Images/1.png" class="absolute block w-full h-550 object-cover" alt="...">
-                        <div class="lg:absolute md:absolute inline-block relative z-30 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg"> 
+                        <div
+                            class="lg:absolute md:absolute inline-block relative z-30 home-badge lg:bottom-10 lg:right-12 bg-gray-950 w-550 h-36 p-6 rounded-lg">
                             <h2 class="text-white text-2xl"> Meet all the heroes from the field </h2>
-                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                       </div>
+                            <p class="text-white text-md pt-4"> Dit amet consectetur. Condimentum dignissim adipiscing
+                                aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
                     </div>
                 </div>
                 <!-- Slider controls -->
-                <button type="button" class="absolute top-48 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full dark:bg-gray-800 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                <button type="button"
+                    class="absolute top-48 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full dark:bg-gray-800 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
                         </svg>
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
-                <button type="button" class="absolute top-48 left-14 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full dark:bg-gray-800 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                <button type="button"
+                    class="absolute top-48 left-14 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full dark:bg-gray-800 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
                         </svg>
                         <span class="sr-only">Next</span>
                     </span>
                 </button>
             </div>
-            
+
         </section>
         <!--================ Home Section End ============== -->
-         <!--================ Progress Section End ============== --> 
-            <section class="section mt-10"> 
-                <div class="flex flex-col justify-center"> 
-                    <div class="flex flex-col justify-center items-center  mx-auto"> 
-                        <h2 class="lg:text-2xl text-xl text-black p-4">  Professional Hockeys Club </h2>
-                        <p class="text-center text-gray-600 w-96 lg:w-[550px]" > Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                    </div>
-                    <div class="mx-auto flex lg:flex-row flex-col lg:gap-8 gap-4">  
-                        <!-- Progress 1 -->
-                        <div class="mt-10 flex flex-col justify-center items-center  w-80">
-                            <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-gray-900 font-bold"> 87% </span>
-                            </div> 
-                            <div> 
-                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3> 
-                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing . </p>
-                            </div>
-                        </div>
-                       <!-- Progress 2 -->
-                        <div class="mt-10 flex flex-col justify-center items-center  w-80">
-                            <div class="radial-progress text-[green]" style="--value:95;" role="progressbar"><span class="text-gray-900 font-bold"> 95% </span>
-                            </div> 
-                            <div> 
-                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3> 
-                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing . </p>
-                            </div>
-                        </div>
-                        <!-- Progress 3 -->
-                        <div class="mt-10 flex flex-col justify-center items-center  w-80">
-                            <div class="radial-progress text-[#ece034]" style="--value:90;" role="progressbar"> 
-                                <span class="text-gray-900 font-bold"> 90% </span>
-                            </div> 
-                            <div> 
-                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3> 
-                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing . </p>
-                            </div>
-                        </div>
-                        <!-- Progress 4 -->
-                        <div class="mt-10 flex flex-col justify-center items-center  w-80">
-                            <div class="radial-progress text-primary" style="--value:80;" role="progressbar">
-                                <span class="text-gray-900 font-bold"> 80% </span>
-                            </div> 
-                            <div> 
-                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3> 
-                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing . </p>
-                            </div>
-                        </div>
-                        <!-- Progress bar end -->
-                    </div>
+        <!--================ Progress Section End ============== -->
+        <section class="section mt-10">
+            <div class="flex flex-col justify-center">
+                <div class="flex flex-col justify-center items-center  mx-auto">
+                    <h2 class="lg:text-2xl text-xl text-black p-4"> Professional Hockeys Club </h2>
+                    <p class="text-center text-gray-600 w-96 lg:w-[550px]"> Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
-            </section>
-         <!--================ Progress Section End ============== -->
+                <div class="mx-auto flex lg:flex-row flex-col lg:gap-8 gap-4">
+                    <!-- Progress 1 -->
+                    <div class="mt-10 flex flex-col justify-center items-center  w-80">
+                        <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span
+                                class="text-gray-900 font-bold"> 87% </span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3>
+                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Progress 2 -->
+                    <div class="mt-10 flex flex-col justify-center items-center  w-80">
+                        <div class="radial-progress text-[green]" style="--value:95;" role="progressbar"><span
+                                class="text-gray-900 font-bold"> 95% </span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3>
+                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Progress 3 -->
+                    <div class="mt-10 flex flex-col justify-center items-center  w-80">
+                        <div class="radial-progress text-[#ece034]" style="--value:90;" role="progressbar">
+                            <span class="text-gray-900 font-bold"> 90% </span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3>
+                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Progress 4 -->
+                    <div class="mt-10 flex flex-col justify-center items-center  w-80">
+                        <div class="radial-progress text-primary" style="--value:80;" role="progressbar">
+                            <span class="text-gray-900 font-bold"> 80% </span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg text-black text-center"> Prayer Facility </h3>
+                            <p class="text-gray-600 text-center"> Amet consectetur. Condimentum dignissim adipiscing .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Progress bar end -->
+                </div>
+            </div>
+        </section>
+        <!--================ Progress Section End ============== -->
 
     </main>
     <!--================ main Section End ============== -->
-     <!--================ Footer Section End ============== -->
-     <footer>
-          
-     </footer>
-      <!--================ Footer Section End ============== -->
+    <!--================ Footer Section Start ============== -->
+    <footer class="bg-[#131318] mt-10 py-20 p-2">
+        <div class="flex lg:flex-row flex-col mx-auto max-w-[1440px]">
+            <div class="flex flex-col lg:justify-start lg:items-start justify-center items-center lg:basis-1/2">
+                <div class="w-28">
+                    <img src="./Images/logo.png" alt="PolarHockey">
+                </div>
+                <div class="mt-4">
+                    <p class="text-white lg:text-start text-center"> PolarHockey Club is dedicated to fostering a love for the game
+                        while embodying the resilience and teamwork inspired by the polar wilderness.<span
+                            title="We aim to provide a supportive environment for players of all levels to develop their skills, share unforgettable moments on the ice, and contribute to the growth of the hockey community."
+                            class="text-blue-500"> more </span> </p>
+                </div>
+                <div class="flex flex-col mt-4">
+                    <ul>
+                        <li class="leading-8"> <i class="pr-2 fa-regular fa-envelope text-xl text-primary-color"></i> polarhockeys@support.com </li>
+                        <li class="text-center lg:text-start leading-8"> <i class="pr-2 fa-solid fa-phone text-primary-color"></i> (+62) 123-321-543 </li>
+
+                    </ul>
+
+                </div>
+            </div>
+            <div class="lg:mt-0 mt-6 flex flex-row justify-evenly gap-4 lg:basis-1/2">
+                <!-- Company -->
+                <div class="flex flex-col justify-start items-center">
+                    <h2 class="text-center text-xl font-semibold"> Company </h2>
+                    <ul class="mt-4 flex flex-col justify-center items-center leading-8">
+                        <li> About us</li>
+                        <li> Leadership </li>
+
+                        <li>Careers </li>
+
+                        <li>News & Article </li>
+
+                        <li> Legal Notice</li>
+
+                    </ul>
+                </div>
+                <!-- Support -->
+                <div class="flex flex-col justify-start items-center">
+                    <h2 class="text-center text-xl font-semibold"> Support </h2>
+                    <ul class="mt-4 flex flex-col justify-center items-center leading-9">
+                        <li> Help Center</li>
+                        <li> FAQ </li>
+                        <li>Ticket Support</li>
+
+                        <li> Contact Us</li>
+
+                    </ul>
+                </div>
+            </div>
+             <!-- Services -->
+             <div class="lg:mt-0 mt-6 flex flex-col justify-start items-center lg:basis-1/4">
+                <h2 class="text-center text-xl font-semibold"> Services </h2>
+                <ul class="mt-4 flex flex-col justify-center items-center leading-8">
+                    <li> Academy </li>
+                    <li> Group Lesson </li>
+
+                    <li>Private Lesson </li>
+
+                    <li> Hockeys for kids</li>
+
+                    <li> Hockeys for Adult</li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--================ Footer Section End ============== -->
     <!-- Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
+
 </html>
