@@ -10,3 +10,11 @@ body{
 .max-h-600{
     height: 340px;
 }
+
+/* responsive images */
+
+@media screen and (max-width: 480px) {
+    .h-550{
+         height: 390px!important;
+    }
+  }
